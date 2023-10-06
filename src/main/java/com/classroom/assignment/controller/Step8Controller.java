@@ -92,6 +92,6 @@ public class Step8Controller {
   public String delete(int deleteId, Model model) {
     commentService.deleteComment(deleteId);
 
-    return "redirect:";
+    return "redirect:/step8";
   }
 }
